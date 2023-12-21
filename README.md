@@ -5,3 +5,4 @@ pipenv install django
 
 react-native 
 react fiber 
+django
