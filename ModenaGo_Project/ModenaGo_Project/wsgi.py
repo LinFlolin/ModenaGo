@@ -1,5 +1,5 @@
 """
-WSGI config for Modena_Backend project.
+WSGI config for ModenaGo_Project project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Modena_Backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ModenaGo_Project.settings')
 
 application = get_wsgi_application()

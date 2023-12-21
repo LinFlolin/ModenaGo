@@ -1,5 +1,5 @@
 """
-ASGI config for Modena_Backend project.
+ASGI config for ModenaGo_Project project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Modena_Backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ModenaGo_Project.settings')
 
 application = get_asgi_application()
