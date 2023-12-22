@@ -6,9 +6,9 @@ export default class App extends Component{
         super(props);
     }
     render(){
-        return (<h1>Testing React Code </h1>)
+        return (<h1>Modena GO </h1>)
     }
     
 }
-const AppDiv = document.getElementById('app');
+const AppDiv = document.getElementById('home');
 render (<App/>,AppDiv)
