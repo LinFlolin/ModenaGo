@@ -56,7 +56,8 @@ ROOT_URLCONF = 'ModenaGo_Project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR /"MoFrontEnd"/"template",
+                 BASE_DIR/"MoBackEnd"/"template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

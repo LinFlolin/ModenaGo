@@ -4,7 +4,9 @@
   "description": "Questo app si focalizza SOLO sulla parte frontend \r ho creato il static folder dove potete mettere tutti i componenti neccessari per il frond end \r come immagine , css etc .. , e",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+
   },
   "keywords": [],
   "author": "",
