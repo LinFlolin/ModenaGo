@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'MoBackEnd',
+    'rest_framework',
+    'API',
     'MoFrontEnd'
 ]
 
@@ -57,7 +58,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [BASE_DIR /"MoFrontEnd"/"template",
-                 BASE_DIR/"MoBackEnd"/"template"],
+                 ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
